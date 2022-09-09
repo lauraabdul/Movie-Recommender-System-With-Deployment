@@ -1,0 +1,35 @@
+
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Predict</title>
+{% endblock %}
+
+
+
+{% block body %}
+<br>
+<h2>Not Found</h2>
+<hr>
+<br>
+
+<div>
+    <div class="bg-light p-4 rounded">
+        <div class="col-sm-12 mx-auto">
+            <h5> Movie Not Found</h5>
+            <ul>
+                <li>Make sure the release date of the movie is before 2016</li>
+                <li>Try writing the name of the movie exactly as it is in imdb site</li>
+                <a href="https://www.imdb.com" title="IMDB site">
+                <li>IMDB site</li>
+                
+                
+                
+                <p>
+                    <a class="btn btn-success" href="/predict" role="button">Give it another try &raquo;</a>
+                </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

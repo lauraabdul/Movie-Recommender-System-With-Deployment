@@ -1,0 +1,41 @@
+
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Predict</title>
+{% endblock %}
+
+
+
+{% block body %}
+<br>
+<h2>Predict</h2>
+<hr>
+<br>
+
+<form action="/predict" , method="POST">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="movie">Movie</label>
+            <input type="text" id="movie_name" name="movie_name" placeholder="Movie name" 
+            autocorrect="off" autocapitalize="off" required />
+            <small id="longhelp" class="form-text text-muted">Enter movie's name as it is in IMDB and make sure it is released before 2016</small>
+            <br>
+
+            
+            <br>
+            <input class="btn btn-success btn-lg btn-block" type="submit" value="Predict">
+            <hr>
+            <ul>
+            {% for item in movie_names %}
+            
+                <li>{{item}}</li>
+                
+            
+            {% endfor %}
+            </ul>
+            <hr>
+        </div>
+</form>
+
+{% endblock %}
