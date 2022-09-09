@@ -13,8 +13,10 @@ import os
 
 # In[80]:
 
-file_path=os.path.join(os.getcwd(),(movies__final_data.csv))
-df=pd.read_csv(file_path)
+#file_path=os.path.join(os.getcwd(),(movies__final_data.csv))
+#df=pd.read_csv(file_path)
+
+df=pd.read_csv(r'D:\ENGINEERING\recommendation system\movies__final_data.csv')
 
 
 # In[86]:
