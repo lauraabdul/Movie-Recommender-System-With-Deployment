@@ -12,7 +12,7 @@ from utils import get_recommendation ,cosine_sim
 
 app = Flask(__name__)
 
-df=pd.read_csv('movies__final_data.csv')
+df=pd.read_csv("movies__final_data.csv")
 
 # create array with all movie titles
 all_titles = [df['title'][i] for i in range(len(df['title']))]

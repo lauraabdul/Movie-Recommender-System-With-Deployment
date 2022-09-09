@@ -16,7 +16,7 @@ import os
 #file_path=os.path.join(os.getcwd(),(movies__final_data.csv))
 #df=pd.read_csv(file_path)
 
-df=pd.read_csv(movies__final_data.csv)
+df=pd.read_csv("movies__final_data.csv")
 
 
 # In[86]:
