@@ -12,8 +12,8 @@ from utils import get_recommendation ,cosine_sim
 
 app = Flask(__name__)
 
-
-df=pd.read_csv(r'D:\ENGINEERING\recommendation system\movies__final_data.csv')
+file_path=os.path.join(os.getcwd(),(movies__final_data.csv))
+df=pd.read_csv(file_path)
 # create array with all movie titles
 all_titles = [df['title'][i] for i in range(len(df['title']))]
 
