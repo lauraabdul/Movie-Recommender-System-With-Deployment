@@ -32,7 +32,12 @@ def predict():
     if request.method == 'POST':  # while prediction
 
         m_n = " ".join(flask.request.form['movie_name'].split())
-        m_name=string.capwords(m_n)
+        lis=m_n.split()
+        for i in range(len(lis)):
+            if lis[i] not in ['of','the','on','a','an']:
+                lis[i]=string.capwords(lis[i])
+
+        m_name=' '.join(lis)
         if m_name not in all_titles:
             return(flask.render_template('notfound.html')) #######
         else:
