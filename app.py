@@ -1,4 +1,6 @@
 # Import the Libraries
+from re import M
+import string
 import flask
 import pandas as pd 
 import sklearn
@@ -29,7 +31,8 @@ def home():
 def predict():
     if request.method == 'POST':  # while prediction
 
-        m_name = " ".join(flask.request.form['movie_name'].split())
+        m_n = " ".join(flask.request.form['movie_name'].split())
+        m_name=string.capwords(m_n)
         if m_name not in all_titles:
             return(flask.render_template('notfound.html')) #######
         else:
