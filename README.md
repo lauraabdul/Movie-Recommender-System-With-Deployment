@@ -1,6 +1,7 @@
 # Movie Recommender System With Deployment
 ## Introduction 
 This project is a simple Movie recommender as a MachineLearning application 
+
 *The recommender takes the official name of the movie as an input and gives you 10 names for 10 movies that you will most probably like*
 
 ## Description
