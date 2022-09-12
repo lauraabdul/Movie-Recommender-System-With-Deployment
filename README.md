@@ -13,7 +13,13 @@ This project is a simple Movie recommender as a MachineLearning application
 * Deploying the project onto **Heroku** cloud
 
 ## How to use it 
+* Make sure to write the official release name of the movie 
+* Data is only for movies before 2016 
 
 
 https://user-images.githubusercontent.com/60317731/189660838-fa7a101d-f139-4f2b-9dd4-bc306a10a114.mp4
 
+
+## Future potential upgrades 
+* Using deeplearning Neural Network instead of the cosine similarity algo 
+* Making an intelligent search engine 
