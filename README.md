@@ -25,4 +25,4 @@ https://user-images.githubusercontent.com/60317731/189660838-fa7a101d-f139-4f2b-
 * Making an intelligent search engine 
 
 ## Application Link 
-[Try it](recommendtomeh.herokuapp.com)
+[Try it](https://recommendtomeh.herokuapp.com/)
