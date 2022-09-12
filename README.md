@@ -23,3 +23,6 @@ https://user-images.githubusercontent.com/60317731/189660838-fa7a101d-f139-4f2b-
 ## Future potential upgrades 
 * Using deeplearning Neural Network instead of the cosine similarity algo 
 * Making an intelligent search engine 
+
+## Application Link 
+[Try it](recommendtomeh.herokuapp.com)
