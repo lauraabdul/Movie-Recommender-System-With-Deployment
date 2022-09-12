@@ -3,5 +3,5 @@
 This project is a simple Movie recommender as a MachineLearning application 
 
 ## Description
-* Using metadata for 5000 movies from TDMB  : [Link text Here](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+* Using metadata for 5000 movies from TDMB  : [Datasets](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
